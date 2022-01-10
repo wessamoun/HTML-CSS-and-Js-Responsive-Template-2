@@ -75,7 +75,7 @@ function backgroundOption() {
       landing.style.backgroundImage = `url(imgs/${
         backgroundArray[Math.floor(Math.random() * backgroundArray.length)]
       })`;
-    }, 1000);
+    }, 5000);
   }
 }
 backgroundOption();
